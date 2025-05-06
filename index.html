@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalapão Aventuras - Sua Melhor Experiência no Jalapão</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Jalapão Aventuras</div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="img/hero-bg.jpg" class="img-hero" alt="Dunas">
+            <h1>Descubra o Paraíso do Jalapão</h1>
+            <p>Aventuras inesquecíveis nas dunas douradas e fervedouros cristalinos</p>
+            <a href="#pacotes" class="cta-button">Ver Pacotes</a>
+        </div>
+    </section>
+
+    <section id="destinos" class="destinations">
+        <h2>Principais Destinos</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="./img/dunas.jpg" alt="Dunas do Jalapão">
+                <h3>Dunas do Jalapão</h3>
+                <p>As majestosas dunas douradas que parecem tocar o céu</p>
+            </div>
+            <div class="destination-card">
+                <img src="./img/fervedouro.jpg" alt="Fervedouros">
+                <h3>Fervedouros</h3>
+                <p>Piscinas naturais de águas cristalinas que brotam da terra</p>
+            </div>
+            <div class="destination-card">
+                <img src="img/cachoeira.jpg" alt="Cachoeiras">
+                <h3>Cachoeiras</h3>
+                <p>Quedas d'água deslumbrantes em meio à natureza preservada</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pacotes" class="packages">
+        <h2>Nossos Pacotes</h2>
+        <div class="package-grid">
+            <div class="package-card">
+                <h3>Pacote Aventura</h3>
+                <p class="price">A partir de R$ 1.999</p>
+                <ul>
+                    <li>4 dias de aventura</li>
+                    <li>Hospedagem incluída</li>
+                    <li>Café da manhã</li>
+                    <li>Transporte local</li>
+                    <li>Guia especializado</li>
+                </ul>
+                <a href="#contato" class="package-button">Reservar Agora</a>
+            </div>
+            <div class="package-card">
+                <h3>Pacote Completo</h3>
+                <p class="price">A partir de R$ 2.999</p>
+                <ul>
+                    <li>6 dias de aventura</li>
+                    <li>Hospedagem completa</li>
+                    <li>Todas as refeições</li>
+                    <li>Transporte local</li>
+                    <li>Guia especializado</li>
+                    <li>Atividades extras</li>
+                </ul>
+                <a href="#contato" class="package-button">Reservar Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="tel" placeholder="Telefone" required>
+                <select required>
+                    <option value="">Selecione um pacote</option>
+                    <option value="aventura">Pacote Aventura</option>
+                    <option value="completo">Pacote Completo</option>
+                </select>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Jalapão Aventuras</h3>
+                <p>Sua melhor experiência no Jalapão começa aqui!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: contato@jalapaoaventuras.com</p>
+                <p>Tel: (63) 99999-9999</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jalapão Aventuras. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
