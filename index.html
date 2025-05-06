@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jalapão Aventuras - Sua Melhor Experiência no Jalapão</title>
+    <meta name="description" content="Descubra o Jalapão com a melhor agência de turismo. Pacotes exclusivos para dunas, fervedouros e cachoeiras. Aventuras inesquecíveis no coração do Tocantins.">
+    <meta name="keywords" content="Jalapão, turismo, Tocantins, dunas, fervedouros, cachoeiras, pacotes turísticos">
+    <title>Jalapão Aventuras </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#e67e22">
 </head>
 <body>
     <header>
@@ -51,6 +64,36 @@
                 <h3>Cachoeiras</h3>
                 <p>Quedas d'água deslumbrantes em meio à natureza preservada</p>
             </div>
+            <div class="destination-card">
+                <img src="img/serra.jpg" alt="Serra do Espírito Santo">
+                <h3>Serra do Espírito Santo</h3>
+                <p>Vista panorâmica deslumbrante do alto da serra</p>
+            </div>
+            <div class="destination-card">
+                <img src="img/pedra-furada.jpg" alt="Pedra Furada">
+                <h3>Pedra Furada</h3>
+                <p>Formação rochosa única com uma abertura natural</p>
+            </div>
+            <div class="destination-card">
+                <img src="img/lagoa-do-japones.jpg" alt="Lagoa do Japonês">
+                <h3>Lagoa do Japonês</h3>
+                <p>Lagoa de águas cristalinas cercada por vegetação exuberante</p>
+            </div>
+            <div class="destination-card">
+                <img src="img/cachoeira-da-velha.jpg" alt="Cachoeira da Velha">
+                <h3>Cachoeira da Velha</h3>
+                <p>Uma das maiores cachoeiras do Jalapão com 100m de largura</p>
+            </div>
+            <div class="destination-card">
+                <img src="img/fervedouro.jpeg" alt="Fervedouro Azul">
+                <h3>Fervedouro Azul</h3>
+                <p>Águas azul-turquesa em um dos fervedouros mais bonitos</p>
+            </div>
+            <div class="destination-card">
+                <img src="img/serras-gerais.jpg" alt="Serra Geral">
+                <h3>Serra Geral</h3>
+                <p>Paisagem única com formações rochosas impressionantes</p>
+            </div>
         </div>
     </section>
 
@@ -58,32 +101,191 @@
         <h2>Nossos Pacotes</h2>
         <div class="package-grid">
             <div class="package-card">
-                <h3>Pacote Aventura</h3>
-                <p class="price">A partir de R$ 1.999</p>
-                <ul>
-                    <li>4 dias de aventura</li>
-                    <li>Hospedagem incluída</li>
-                    <li>Café da manhã</li>
-                    <li>Transporte local</li>
-                    <li>Guia especializado</li>
-                </ul>
+                <div class="package-header">
+                    <h3>Pacote Aventura</h3>
+                    <p class="price">A partir de R$ 1.999</p>
+                    <p class="duration"><i class="far fa-clock"></i> 4 dias / 3 noites</p>
+                </div>
+                <div class="package-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Hospedagem em pousada</li>
+                        <li><i class="fas fa-check"></i> Café da manhã</li>
+                        <li><i class="fas fa-check"></i> Transporte local</li>
+                        <li><i class="fas fa-check"></i> Guia especializado</li>
+                        <li><i class="fas fa-check"></i> Seguro viagem</li>
+                    </ul>
+                </div>
                 <a href="#contato" class="package-button">Reservar Agora</a>
             </div>
+
+            <div class="package-card featured">
+                <div class="package-badge">Mais Popular</div>
+                <div class="package-header">
+                    <h3>Pacote Completo</h3>
+                    <p class="price">A partir de R$ 2.999</p>
+                    <p class="duration"><i class="far fa-clock"></i> 6 dias / 5 noites</p>
+                </div>
+                <div class="package-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Hospedagem completa</li>
+                        <li><i class="fas fa-check"></i> Todas as refeições</li>
+                        <li><i class="fas fa-check"></i> Transporte local</li>
+                        <li><i class="fas fa-check"></i> Guia especializado</li>
+                        <li><i class="fas fa-check"></i> Atividades extras</li>
+                        <li><i class="fas fa-check"></i> Seguro viagem</li>
+                        <li><i class="fas fa-check"></i> Transfer aeroporto</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="package-button">Reservar Agora</a>
+            </div>
+
             <div class="package-card">
-                <h3>Pacote Completo</h3>
-                <p class="price">A partir de R$ 2.999</p>
-                <ul>
-                    <li>6 dias de aventura</li>
-                    <li>Hospedagem completa</li>
-                    <li>Todas as refeições</li>
-                    <li>Transporte local</li>
-                    <li>Guia especializado</li>
-                    <li>Atividades extras</li>
-                </ul>
+                <div class="package-header">
+                    <h3>Pacote Premium</h3>
+                    <p class="price">A partir de R$ 3.999</p>
+                    <p class="duration"><i class="far fa-clock"></i> 8 dias / 7 noites</p>
+                </div>
+                <div class="package-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Hospedagem premium</li>
+                        <li><i class="fas fa-check"></i> Todas as refeições</li>
+                        <li><i class="fas fa-check"></i> Transporte exclusivo</li>
+                        <li><i class="fas fa-check"></i> Guia particular</li>
+                        <li><i class="fas fa-check"></i> Todas as atividades</li>
+                        <li><i class="fas fa-check"></i> Seguro viagem premium</li>
+                        <li><i class="fas fa-check"></i> Transfer VIP</li>
+                        <li><i class="fas fa-check"></i> Passeio de helicóptero</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="package-button">Reservar Agora</a>
+            </div>
+
+            <div class="package-card">
+                <div class="package-header">
+                    <h3>Pacote Romântico</h3>
+                    <p class="price">A partir de R$ 2.499</p>
+                    <p class="duration"><i class="far fa-clock"></i> 5 dias / 4 noites</p>
+                </div>
+                <div class="package-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Suíte especial</li>
+                        <li><i class="fas fa-check"></i> Café da manhã na cama</li>
+                        <li><i class="fas fa-check"></i> Jantar romântico</li>
+                        <li><i class="fas fa-check"></i> Transporte privativo</li>
+                        <li><i class="fas fa-check"></i> Guia especializado</li>
+                        <li><i class="fas fa-check"></i> Seguro viagem</li>
+                        <li><i class="fas fa-check"></i> Transfer aeroporto</li>
+                    </ul>
+                </div>
                 <a href="#contato" class="package-button">Reservar Agora</a>
             </div>
         </div>
     </section>
+
+    <section id="depoimentos" class="testimonials">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Uma experiência incrível! O Jalapão é realmente um paraíso e a agência nos proporcionou uma viagem perfeita."</p>
+                    <div class="testimonial-author">
+                        <img src="img/avatar1.jpg" alt="Cliente">
+                        <div>
+                            <h4>Maria Silva</h4>
+                            <p>São Paulo, SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Guia super atencioso e pacote completo. Valeu cada centavo investido!"</p>
+                    <div class="testimonial-author">
+                        <img src="img/avatar2.jpg" alt="Cliente">
+                        <div>
+                            <h4>João Santos</h4>
+                            <p>Rio de Janeiro, RJ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"O Jalapão superou todas as minhas expectativas! Atendimento excelente e paisagens inesquecíveis."</p>
+                    <div class="testimonial-author">
+                        <img src="img/avatar3.jpg" alt="Cliente">
+                        <div>
+                            <h4>Ana Paula</h4>
+                            <p>Belo Horizonte, MG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Viagem perfeita do início ao fim. Recomendo muito a Jalapão Aventuras!"</p>
+                    <div class="testimonial-author">
+                        <img src="img/avatar4.jpg" alt="Cliente">
+                        <div>
+                            <h4>Carlos Mendes</h4>
+                            <p>Goiânia, GO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Equipe muito prestativa e roteiro bem planejado. Voltarei com certeza!"</p>
+                    <div class="testimonial-author">
+                        <img src="img/avatar5.jpg" alt="Cliente">
+                        <div>
+                            <h4>Fernanda Lima</h4>
+                            <p>Brasília, DF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Qual a melhor época para visitar o Jalapão?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>A melhor época é durante a estação seca, entre maio e setembro, quando as temperaturas são mais amenas e as chuvas são raras.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Quais documentos são necessários?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>É necessário apresentar documento de identidade com foto e, para estrangeiros, passaporte válido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="whatsapp-button">
+        <a href="https://wa.me/5563981198884" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <section id="contato" class="contact">
         <h2>Entre em Contato</h2>
@@ -96,6 +298,8 @@
                     <option value="">Selecione um pacote</option>
                     <option value="aventura">Pacote Aventura</option>
                     <option value="completo">Pacote Completo</option>
+                    <option value="premium">Pacote Premium</option>
+                    <option value="romantico">Pacote Romântico</option>
                 </select>
                 <textarea placeholder="Mensagem" required></textarea>
                 <button type="submit" class="submit-button">Enviar Mensagem</button>
@@ -111,8 +315,8 @@
             </div>
             <div class="footer-section">
                 <h3>Contato</h3>
-                <p>Email: contato@jalapaoaventuras.com</p>
-                <p>Tel: (63) 99999-9999</p>
+                <p>Email: joao162002009@gmail.com</p>
+                <p>Tel: (63) 98499-6863</p>
             </div>
             <div class="footer-section">
                 <h3>Redes Sociais</h3>
