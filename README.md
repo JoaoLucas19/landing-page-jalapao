@@ -30,13 +30,19 @@ lp-agencia/
     ├── dunas.jpg
     ├── fervedouro.jpg
     └── cachoeira.jpg
+    └── serra.jpg
+    └── serras-gerais.jpg
+    └── pedra-furada.jpg
+    └── lagoa-do-japones.jpg
+    └── fervedouro.jpeg
+    └── cachoeira-da-velha.jpg
 
 ## 🎨 Funcionalidades
-- Menu Responsivo : Menu hamburguer para dispositivos móveis.
-- Smooth Scroll : Rolagem suave ao clicar nos links do menu.
-- Cards Interativos : Cards de destinos com efeito hover.
-- Formulário : Validação de formulário e feedback ao usuário.
-- Design Adaptativo : Layout se ajusta a diferentes tamanhos de tela.
+- Menu Responsivo: Menu hamburguer para dispositivos móveis.
+- Smooth Scroll: Rolagem suave ao clicar nos links do menu.
+- Cards Interativos: Cards de destinos com efeito hover.
+- Formulário: Validação de formulário e feedback ao usuário.
+- Design Adaptativo: Layout se ajusta a diferentes tamanhos de tela.
 
 ## 📱 Responsividade
 O site é totalmente responsivo e se adapta aos seguintes breakpoints:
